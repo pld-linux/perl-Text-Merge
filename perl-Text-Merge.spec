@@ -38,7 +38,7 @@ sam Text::Merge mo¿e ³atwo byæ dalej rozszerzany.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
