@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Merge
-Summary:	Text::Merge perl module
-Summary(pl):	Modu³ perla Text::Merge
+Summary:	Text::Merge - v.0.34 General purpose text/data merging methods in Perl.
 Name:		perl-Text-Merge
 Version:	0.34
 Release:	5
@@ -15,10 +14,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::Merge perl module.
-
-%description -l pl
-Modu³ perla Text::Merge.
+The C<Text::Merge> package is designed to provide a quick, versatile,
+and extensible way to combine presentation templates and data structures.
+The C<Text::Merge> package attempts to do this by assuming that templates
+are constructed with text and that objects consist of data and functions
+that operate on that data.  C<Text::Merge> is very simple, in that it
+works on one file and one object at a time, although an extension exists
+to display lists (C<Text::Merge::Lists>) and C<Text::Merge> itself could
+easily be extended further.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
