@@ -2,7 +2,7 @@
 Summary:	Text-Merge perl module
 Summary(pl):	Modu³ perla Text-Merge
 Name:		perl-Text-Merge
-Version:	0.29
+Version:	0.31
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Text/Merge
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
