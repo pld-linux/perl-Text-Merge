@@ -2,9 +2,9 @@
 Summary:	Text-Merge perl module
 Summary(pl):	Modu³ perla Text-Merge
 Name:		perl-Text-Merge
-Version:	0.28
-Release:	3
-Copyright:	GPL
+Version:	0.29
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Merge-%{version}.tar.gz
