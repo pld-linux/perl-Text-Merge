@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Merge
-Summary:	Text::Merge - General purpose text/data merging methods in Perl
+Summary:	Text::Merge - general purpose text/data merging methods in Perl
 Summary(pl):	Text::Merge - metody ogólnego przeznaczenia ³±cz±ce tekst lub dane w Perlu
 Name:		perl-Text-Merge
 Version:	0.36
