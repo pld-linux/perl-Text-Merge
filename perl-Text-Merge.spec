@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Merge
-Summary:	Text-Merge perl module
-Summary(pl):	Modu³ perla Text-Merge
+Summary:	Text::Merge perl module
+Summary(pl):	Modu³ perla Text::Merge
 Name:		perl-Text-Merge
 Version:	0.34
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Merge perl module.
+Text::Merge perl module.
 
 %description -l pl
-Modu³ perla Text-Merge.
+Modu³ perla Text::Merge.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
