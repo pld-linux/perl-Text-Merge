@@ -40,7 +40,7 @@ sam Text::Merge mo¿e ³atwo byæ dalej rozszerzany.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
