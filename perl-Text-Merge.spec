@@ -31,12 +31,12 @@ extension exists to display lists (Text::Merge::Lists) and Text::Merge
 itself could easily be extended further.
 
 %description -l pl
-Pakiet Text::Merge zosta³ zaprojektowany, aby dostarszyæ szybk±,
+Pakiet Text::Merge zosta³ zaprojektowany, aby dostarczyæ szybk±,
 wszechstronn± i rozszerzaln± metodê do ³±czenia szablonów prezentacji
 ze strukturami danych. Text::Merge próbuje zrobiæ to przy za³o¿eniu,
 ¿e szablony s± skonstruowane z tekstu, a obiekty zawieraj± dane i
 funkcje operuj±ce na tych danych. Modu³ jest bardzo prosty pod tym
-wzglêdem, ¿e dzia³± na jednym pliku i jednym obiekcie jednocze¶nie,
+wzglêdem, ¿e dzia³a na jednym pliku i jednym obiekcie jednocze¶nie,
 ale istnieje rozszerzenie do wy¶wietlania list (Text::Merge::Lists), a
 sam Text::Merge mo¿e ³atwo byæ dalej rozszerzany.
 
