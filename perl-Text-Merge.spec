@@ -5,7 +5,7 @@ Summary:	Text::Merge - General purpose text/data merging methods in Perl
 Summary(pl):	Text::Merge - metody ogólnego przeznaczenia ³±cz±ce tekst lub dane w Perlu
 Name:		perl-Text-Merge
 Version:	0.34
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
