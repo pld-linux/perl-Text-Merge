@@ -4,7 +4,7 @@
 Summary:	Text::Merge - v.0.34 General purpose text/data merging methods in Perl.
 Name:		perl-Text-Merge
 Version:	0.34
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
