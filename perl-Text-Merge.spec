@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Merge
+%define		pdir	Text
+%define		pnam	Merge
 Summary:	Text::Merge - general purpose text/data merging methods in Perl
 Summary(pl):	Text::Merge - metody ogólnego przeznaczenia ³±cz±ce tekst lub dane w Perlu
 Name:		perl-Text-Merge
