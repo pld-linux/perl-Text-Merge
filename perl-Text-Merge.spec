@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Merge
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Merge perl module
 Summary(pl):	Modu³ perla Text-Merge
 Name:		perl-Text-Merge
 Version:	0.34
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-Merge perl module.
 Modu³ perla Text-Merge.
 
 %prep
-%setup -q -n Text-Merge-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
