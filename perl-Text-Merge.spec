@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Merge
 Summary:	Text::Merge - general purpose text/data merging methods in Perl
-Summary(pl):	Text::Merge - metody ogólnego przeznaczenia ³±cz±ce tekst lub dane w Perlu
+Summary(pl.UTF-8):   Text::Merge - metody ogÃ³lnego przeznaczenia Å‚Ä…czÄ…ce tekst lub dane w Perlu
 Name:		perl-Text-Merge
 Version:	0.36
 Release:	1
@@ -30,15 +30,15 @@ that it works on one file and one object at a time, although an
 extension exists to display lists (Text::Merge::Lists) and Text::Merge
 itself could easily be extended further.
 
-%description -l pl
-Pakiet Text::Merge zosta³ zaprojektowany, aby dostarczyæ szybk±,
-wszechstronn± i rozszerzaln± metodê do ³±czenia szablonów prezentacji
-ze strukturami danych. Text::Merge próbuje zrobiæ to przy za³o¿eniu,
-¿e szablony s± skonstruowane z tekstu, a obiekty zawieraj± dane i
-funkcje operuj±ce na tych danych. Modu³ jest bardzo prosty pod tym
-wzglêdem, ¿e dzia³a na jednym pliku i jednym obiekcie jednocze¶nie,
-ale istnieje rozszerzenie do wy¶wietlania list (Text::Merge::Lists), a
-sam Text::Merge mo¿e ³atwo byæ dalej rozszerzany.
+%description -l pl.UTF-8
+Pakiet Text::Merge zostaÅ‚ zaprojektowany, aby dostarczyÄ‡ szybkÄ…,
+wszechstronnÄ… i rozszerzalnÄ… metodÄ™ do Å‚Ä…czenia szablonÃ³w prezentacji
+ze strukturami danych. Text::Merge prÃ³buje zrobiÄ‡ to przy zaÅ‚oÅ¼eniu,
+Å¼e szablony sÄ… skonstruowane z tekstu, a obiekty zawierajÄ… dane i
+funkcje operujÄ…ce na tych danych. ModuÅ‚ jest bardzo prosty pod tym
+wzglÄ™dem, Å¼e dziaÅ‚a na jednym pliku i jednym obiekcie jednoczeÅ›nie,
+ale istnieje rozszerzenie do wyÅ›wietlania list (Text::Merge::Lists), a
+sam Text::Merge moÅ¼e Å‚atwo byÄ‡ dalej rozszerzany.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
