@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Merge
 Summary:	Text::Merge - general purpose text/data merging methods in Perl
-Summary(pl.UTF-8):   Text::Merge - metody ogólnego przeznaczenia łączące tekst lub dane w Perlu
+Summary(pl.UTF-8):	Text::Merge - metody ogólnego przeznaczenia łączące tekst lub dane w Perlu
 Name:		perl-Text-Merge
 Version:	0.36
 Release:	1
